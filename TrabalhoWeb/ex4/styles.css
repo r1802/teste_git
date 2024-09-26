@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: white;
+    margin-top: -25px;
+}
+
+h1 {
+    padding-top: 15px;
+    margin-left: 20px;
+    
+}
+
+.borda{
+    background-color: red;
+    margin-left: -10px;
+    margin-right: -20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+ul{
+    list-style: none; /*Tira a marcação da lista*/
+}
