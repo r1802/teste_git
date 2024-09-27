@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.caixa{
+    margin-right: 10px;
+}
+
+input[type="checkbox"]:checked + label{/*o input do tipo checkbox, apos ser clicado fará a label
+    ficar no estado descrito. seria algo tipo [elemento:condição que deve estar + elemento 
+    que receberá a ação]*/
+    
+    text-decoration: line-through;
+}
+
+button{
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer; /*o cursor do mouse muda em cima do botão pra clicar*/
+}
