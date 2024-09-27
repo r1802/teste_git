@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+details {  /*transition define uma transição suave entre dois estados de um elemento*/
+    
+    transition: height 1s ease-in-out;/*propriedade que vai ser animada, tempo de espera
+    pra ocorrer a animação, tipo de animação usada(ease in out-animação começa lenta, acelera e
+    depois reduz a velocidade de novo)*/
+
+    margin-top: -15px;
+  }
+
+  p{
+margin-top: 0px;
+
+  }
