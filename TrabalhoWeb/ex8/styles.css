@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    color: white;
+    margin-top: -25px;
+}
+
+h1 {
+    padding-top: 15px;
+    margin-left: 20px;
+    
+}
+
+.borda{
+    background-color: gold;
+    margin-left: -10px;
+    margin-right: -8px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: black;
+
+}
+
+h3{
+    padding-left: 15px;
+}
+
+.esquerda{
+
+    margin-left: -10px;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: darkgray;
+    color: black;
+
+}
+
+img{
+
+    margin-top: -15px;
+    width: 260px;
+    height: 260px;
+    padding-left: 15px;
+    margin-right: 30px;
+}
+
+.tratamento{
+
+    display: flex; /*modela a tela */
+    justify-content: space-between;/*deixa um espaço entre os elementos*/
+    align-items: normal; /*alinha os intens*/
+}
+
+
+.descricao{
+
+    margin-right: 35px;
+}
+
+.botao{
+    font-size: 16px;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px; /*arredonda as pontas das margens*/
+    background-color: gold;
+    box-sizing: content-box; /*ele calcula o tamanho do botão de acordo com o conteudo dentro dele*/
+}
