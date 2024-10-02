@@ -1,0 +1,42 @@
+body{
+    background-color: gold;
+}
+
+.promocoes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #222222;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #2e2e2e;
+    margin-bottom: 10px;
+}
+
+del {
+    color: #746e6e;
+    text-decoration: line-through;/*risco no meio*/
+}
+
