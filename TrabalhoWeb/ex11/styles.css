@@ -23,6 +23,6 @@ h1{
 }
 
 .espaco{
-    text-indent: 10px;
+    text-indent: 10px; /*adiciona um espaço de paragrafo com o tamanho que quiser*/
     list-style: disc;
 }
