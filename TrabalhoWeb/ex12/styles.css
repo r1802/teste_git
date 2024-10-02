@@ -1,0 +1,24 @@
+.galeria {
+    display: grid; /*fala como vai ficar a posição dos itens na tela(Aqui em forma de grade ou tabela tipo excel*/
+    grid-template-columns: repeat(3, 1fr);/*repete o valor de 1fr pras 3 colunas. 1fr é a fração que o elemento vai ocupar depois de dividir a tela pela quantidade de colunas inseridas*/
+    gap: 10px; /*é o espaçamento entre as colunas*/
+    padding: 20px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;/*fala a direção que cada elemento vai ir(os intens vao ficar todos um em baixo do outro como uma coluna)*/
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(193, 186, 186);
+}
+
+
+img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
