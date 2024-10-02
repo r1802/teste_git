@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    
+}
+
+div {
+    margin: 40px auto; /*centraliza automaticamente na horizontal*/
+    padding: 20px;
+    background-color: #706c6c;
+    border: 1px solid #ddd; /*adiciona uma borda*/
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+blockquote {/*indicar um trecho de texto que é uma citação ou uma referência a uma fonte externa*/
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+    padding: 10px;
+    border-left: 4px solid #ccc; /*adiciona a borda da esquerda bonitinha*/
+}
+
+cite {/*indicar a fonte de uma citação ou de um trecho de texto. Indica a autoria de uma citação*/
+    font-size: 16px;
+    color: white;
+    font-style: normal;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 40%;
+}
